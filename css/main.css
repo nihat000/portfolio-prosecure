@@ -273,6 +273,9 @@ header .header-item-box {
     margin: auto;
     margin-bottom: 1.25rem;
   }
+  .practice-item-box img {
+    width: 100%;
+  }
 }
 .who {
   padding: 5rem 0;
@@ -291,12 +294,22 @@ header .header-item-box {
   display: flex;
 }
 .who-box-main {
+  position: relative;
   flex: 3;
   margin-right: 3rem;
 }
-.who-box-main img {
+.who-box-main .cover {
   border-radius: 5px;
   width: 100%;
+}
+.who-box-main .play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
 }
 .who-box-sub {
   flex: 2;
