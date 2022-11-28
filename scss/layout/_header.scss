@@ -1,0 +1,121 @@
+header {
+    position: relative;
+    background: url("../img/header-cover.svg");
+    background-size: cover;
+    height: 700px;
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // margin-: 2rem;
+      }
+      ul {
+        margin-left: 3rem;
+        display: flex;
+        li {
+          margin-right: 2rem;
+          a {
+            color: #737373;
+          }
+        }
+      }
+    }
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+  
+      .header-title {
+        margin-top: 6rem;
+      }
+      .header-desc {
+        margin-top: 2rem;
+        color: $second-text-color;
+      }
+      .header-buttons {
+        
+        button {
+          padding: 1rem 2rem;
+          border-radius: 25px;
+          margin-top: 1.5rem;
+        }
+        button:nth-child(1) {
+          color: #fff;
+          background-color: $secondary-color-2;
+          border: none;
+        }
+        button:nth-child(2) {
+          color: $secondary-color-2;
+          background-color: #fff;
+          border: 2px solid $secondary-color-2;
+        }
+      }
+    }
+    .header-item {
+      position: absolute;
+      bottom: -10%;
+      left: 18%;
+      display: flex;
+      &-box {
+        background-color: #fff;
+        padding: 2rem 3rem;
+        margin-right: 1.5rem;
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .header-container div {
+        // mar
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      height: 1200px !important;
+      nav {
+        ul {
+          display: none;
+        }
+        .nav-actions {
+          margin-right: 1rem;
+        }
+      }
+      .header-container{
+        max-width: 350px;
+        margin: auto;
+        display: flex;
+        .header-title{
+          margin-bottom: 1.25rem;
+        }
+        .header-desc{
+          margin-bottom: 1.5rem;
+        }
+        .header-buttons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          button{
+            width: 60%;
+            margin-bottom: .75rem;
+          }
+        }
+      }
+      
+      .header-item {
+        position: static;
+        flex-direction: column;
+        margin-top: 2rem;
+        &-box {
+          margin: 0 auto;
+          width: 80% ;
+         
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }

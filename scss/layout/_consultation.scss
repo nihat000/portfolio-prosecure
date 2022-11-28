@@ -1,0 +1,40 @@
+.consultation {
+    background-color: #fff;
+    &-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-main {
+      &-title {
+        margin-bottom: 1rem;
+      }
+    }
+    &-sub {
+      &-btn {
+        background-color: $secondary-color-2;
+        color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+  
+  @media screen and (max-width:768px){
+      .consultation {
+          &-container{
+              max-width: 300px;
+              flex-direction: column;
+              .conssultation-main{
+  
+              }
+              .consultation-sub{
+                  margin-top: 2rem;
+              }
+          }
+      }
+  }
+  

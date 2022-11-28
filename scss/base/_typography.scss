@@ -1,0 +1,43 @@
+html {
+    font-family: "Martel", serif;
+  }
+  p {
+    color: $second-text-color;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+  }
+  a {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+  }

@@ -1,0 +1,9 @@
+@mixin btn-request {
+    color: $primary-color;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
