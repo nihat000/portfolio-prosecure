@@ -13,6 +13,8 @@
     &-item {
       // padding: ;
       display: flex;
+      align-items: center;
+      justify-content: space-between;
       &-box {
         padding: 5rem 0;
         width: 33%;
@@ -20,6 +22,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        // margin-right: 2rem;
+        
         &-img {
           width: 64px;
           height: 64px;
@@ -39,8 +43,9 @@
       &-box:nth-child(2) {
         background-color: #252b42;
         color : #fff;
+        padding : 8rem 0;
   
-        transform: translateX(-0.8rem);
+        // transform: translateX(-0.8rem);
       //   padding: rem 0;
       }
     }

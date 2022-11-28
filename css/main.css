@@ -424,6 +424,8 @@ header .header-item-box {
 }
 .contact-item {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .contact-item-box {
   padding: 5rem 0;
@@ -454,7 +456,7 @@ header .header-item-box {
 .contact-item-box:nth-child(2) {
   background-color: #252b42;
   color: #fff;
-  transform: translateX(-0.8rem);
+  padding: 8rem 0;
 }
 
 @media screen and (max-width: 768px) {
