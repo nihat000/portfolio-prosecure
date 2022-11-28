@@ -1,67 +1,65 @@
-
 footer {
-    .nav-container {
-      background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
-      padding: 3rem 0;
-      color: #fff;
-      nav {
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        div {
-          h5 {
-            margin-bottom: 2rem;
-          }
-          li {
-            margin-bottom: 0.6rem;
-            display: flex;
-            align-items: center;
-            a {
-              color: #fff;
-            }
-          }
-          img {
-            width: 24px;
-            margin-right: 1rem;
+  .nav-container {
+    background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+    padding: 3rem 0;
+    color: #fff;
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      div {
+        h5 {
+          margin-bottom: 2rem;
+        }
+        li {
+          margin-bottom: 0.6rem;
+          display: flex;
+          align-items: center;
+          a {
+            color: #fff;
           }
         }
-      }
-    }
-    .copyright-container {
-      background-color: #fafafa;
-      .copyright {
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        padding: 1.5rem 0;
-        &-text {
-          color: $second-text-color;
-        }
-        &-social {
-          img {
-            margin-left: 1rem;
-          }
+        img {
+          width: 24px;
+          margin-right: 1rem;
         }
       }
     }
   }
-  
-  @media screen and (max-width:768px) {
-      footer{
-          nav{
-              flex-direction: column;
-              padding-left: 3.5rem;
-          }
+  .copyright-container {
+    background-color: #fafafa;
+    .copyright {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5rem 0;
+      &-text {
+        color: $second-text-color;
       }
-      .copyright{
-          &-container{
-              padding-left: 3.5rem;
-              flex-direction: column;
-              &-main{
-                  margin-bottom: 2rem;
-              }
-          }
+      &-social {
+        img {
+          margin-left: 1rem;
+        }
       }
+    }
   }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    nav {
+      flex-direction: column;
+      padding-left: 3.5rem;
+    }
+  }
+  .copyright {
+    width: 80%;
+	 margin: auto;
+    flex-direction: column;
+    &-text {
+      margin-bottom: 2rem;
+    }
+  }
+}

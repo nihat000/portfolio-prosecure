@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 html {
   font-family: "Martel", serif;
 }
@@ -115,7 +120,8 @@ header .header-container .header-buttons button:nth-child(2) {
 header .header-item {
   position: absolute;
   bottom: -10%;
-  left: 18%;
+  right: 18%;
+  max-width: 1200px;
   display: flex;
 }
 header .header-item-box {
@@ -552,11 +558,12 @@ footer .copyright-container .copyright-social img {
     flex-direction: column;
     padding-left: 3.5rem;
   }
-  .copyright-container {
-    padding-left: 3.5rem;
+  .copyright {
+    width: 80%;
+    margin: auto;
     flex-direction: column;
   }
-  .copyright-container-main {
+  .copyright-text {
     margin-bottom: 2rem;
   }
 }
